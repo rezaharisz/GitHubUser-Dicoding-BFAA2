@@ -59,7 +59,8 @@ class FollowingFragment : Fragment() {
     private fun getUserFollowing(username:String){
         val client = AsyncHttpClient()
         val url = "https://api.github.com/users/${username}/following"
-        client.addHeader("Authorization", "token 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")
+//        client.addHeader("Authorization", "token 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")
+//        IF TOKEN EXPIRED USE YOUR OWN TOKEN
         client.addHeader("User-Agent", "request")
 
         client.get(url, object : AsyncHttpResponseHandler(){
