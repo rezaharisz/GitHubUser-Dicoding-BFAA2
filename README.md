@@ -9,6 +9,7 @@ What i use in this project is :
 - Handler
 - API github
 - SearchView
+- Fragment
 - Tab Layout
 - Localization
 - Loading Indicator
