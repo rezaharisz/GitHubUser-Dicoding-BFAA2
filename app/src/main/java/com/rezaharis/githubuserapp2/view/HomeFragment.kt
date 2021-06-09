@@ -50,7 +50,7 @@ class HomeFragment : Fragment() {
         binding.progressBar.visibility = View.VISIBLE
         val client = AsyncHttpClient()
         val url = "https://api.github.com/users"
-        client.addHeader("Authorization", "token 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")
+        client.addHeader("Authorization", "token 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")
         client.addHeader("User-Agent", "request")
         client.get(url, object : AsyncHttpResponseHandler() {
             override fun onSuccess(statusCode: Int, headers: Array<Header>, responseBody: ByteArray) {
@@ -92,7 +92,7 @@ class HomeFragment : Fragment() {
     private fun getUserDetail(username:String){
         val client = AsyncHttpClient()
         val url = "https://api.github.com/users/${username}"
-        client.addHeader("Authorization", "token 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")
+        client.addHeader("Authorization", "token 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")
         client.addHeader("User-Agent", "request")
 
         client.get(url, object : AsyncHttpResponseHandler(){
@@ -135,7 +135,7 @@ class HomeFragment : Fragment() {
     private fun getUserSearch(query: String){
         val client = AsyncHttpClient()
         val url = "https://api.github.com/search/users?q=${query}"
-        client.addHeader("Authorization", "token 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")
+        client.addHeader("Authorization", "token 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")
         client.addHeader("User-Agent", "request")
 
         client.get(url, object : AsyncHttpResponseHandler(){
