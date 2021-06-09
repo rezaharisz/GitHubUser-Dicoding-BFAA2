@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">GitHubUserApp2</string>
+    <string name="title_home">Beranda</string>
+    <string name="detail_activity">Detail Pengguna</string>
+
+    <string name="username">Username</string>
+    <string name="name">Name</string>
+    <string name="company_name">Company name</string>
+    <string name="settings">Pengaturan</string>
+    <string name="profile">Profil</string>
+    <string name="count">100</string>
+    <string name="profile_name">Reza Haris Alfikri</string>
+    <string name="profile_major">Informatics Engineering Student</string>
+    <string name="profile_campus">Stikubank University</string>
+    <string name="profile_email">a3162842@bangkit.academy</string>
+    <string name="profile_phone">+6288228864327</string>
+    <string name="profile_location">Kaligetas, Kecamatan Mijen, Kota Semarang</string>
+    <string name="repository">Repository</string>
+    <string name="followers">Pengikut</string>
+    <string name="following">Mengikuti</string>
+    <string name="location_name">Location Name</string>
+    <string name="change_languange">Ubah Bahasa</string>
+</resources>
